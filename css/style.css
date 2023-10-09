@@ -3,6 +3,11 @@ img {
     max-width: 100%;
 }
 
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* HEADER */
 header {
     height: 80px;
@@ -12,6 +17,18 @@ header {
 /* MAIN */
 /* Hero */
 #hero {
+    background-color: #1abc9c;
+    /* Debug */
+    min-height: 500px;
+}
+
+/* Portfolio */
+[class*="card"] {
+    min-height: 250px;
+}
+
+/* About */
+#about {
     background-color: #1abc9c;
     /* Debug */
     min-height: 500px;
