@@ -52,8 +52,6 @@ main {
 #ms_hero {
     background-color: #1abc9c;
     color: white;
-    /* Debug */
-    min-height: 500px;
 }
 
 #ms_hero img {
@@ -64,17 +62,10 @@ main {
     font-size: 1rem;
 }
 
-/* Portfolio */
-[class*="card"] {
-    min-height: 250px;
-}
-
 /* About */
 #ms_about {
     background-color: #1abc9c;
     color: white;
-    /* Debug */
-    min-height: 500px;
 }
 
 /* Contact Me */
