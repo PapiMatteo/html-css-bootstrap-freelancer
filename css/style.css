@@ -3,7 +3,7 @@ img {
     max-width: 100%;
 }
 
-.wrapper {
+.ms_wrapper {
     width: 70%;
     margin: 0 auto;
 }
@@ -72,6 +72,17 @@ main {
 #ms_contact-me {
     /* Debug */
     min-height: 600px;
+}
+
+.ms_form-control {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+}
+
+label {
+    font-size: 1.5rem;
 }
 
 /* FOOTER */
