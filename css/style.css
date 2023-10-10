@@ -85,6 +85,11 @@ label {
     font-size: 1.5rem;
 }
 
+.ms_btn-primary {
+    background-color: #1abc9c;
+    color: white;
+}
+
 /* FOOTER */
 footer {
     color: white;
@@ -92,13 +97,36 @@ footer {
 /* Footer-top */
 .ms_footer-top {
     background-color: #3a546d;
-    /* Debug */
-    min-height: 300px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    color: inherit;
+}
+
+.ms_btn {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding-top: 12px;
+}
+
+p a {
+    text-decoration: none;
+    color: #1abc9c;
 }
 
 /* Footer-bottom */
 .ms_footer-bottom {
     background-color: #2c3e50;
-    /* Debug */
-    min-height: 150px;
+
+}
+
+.ms_footer-bottom p{
+    margin-bottom: 0;
 }
