@@ -8,18 +8,60 @@ img {
     margin: 0 auto;
 }
 
+hr {
+    display: inline-block;
+    border: 3px solid;
+    border-color: inherit;
+    border-radius: 5px;
+    min-width: 100px;
+    opacity: 1;
+    line-height: 1rem;
+    vertical-align: middle;
+}
+
+.star {
+    line-height: 1rem;
+    vertical-align: middle;
+    color: inherit;
+}
+
+.ms_section-title {
+    text-align: center;
+}
+
 /* HEADER */
 header {
     height: 80px;
     background-color: #2c3e50;
+    color: white;
+}
+
+.nav-link , .navbar-brand , .icon {
+    color: white;
+}
+
+.navbar-toggler {
+    border-color: white;
 }
 
 /* MAIN */
+main {
+    margin-top: 80px;
+}
 /* Hero */
-#hero {
+#ms_hero {
     background-color: #1abc9c;
+    color: white;
     /* Debug */
     min-height: 500px;
+}
+
+#ms_hero img {
+    width: 250px;
+}
+
+.hero-paragraph {
+    font-size: 1rem;
 }
 
 /* Portfolio */
@@ -28,14 +70,14 @@ header {
 }
 
 /* About */
-#about {
+#ms_about {
     background-color: #1abc9c;
     /* Debug */
     min-height: 500px;
 }
 
 /* Contact Me */
-#contact-me {
+#ms_contact-me {
     /* Debug */
     min-height: 600px;
 }
@@ -45,14 +87,14 @@ footer {
     color: white;
 }
 /* Footer-top */
-.footer-top {
+.ms_footer-top {
     background-color: #3a546d;
     /* Debug */
     min-height: 300px;
 }
 
 /* Footer-bottom */
-.footer-bottom {
+.ms_footer-bottom {
     background-color: #2c3e50;
     /* Debug */
     min-height: 150px;
